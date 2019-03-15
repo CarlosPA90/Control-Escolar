@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>    
+        <title>Control Escolar</title>    
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">  
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="mobile-web-app-capable" content="yes">
+    <meta name = "google-signin-client_id" content = " YOUR_CLIENT_ID.apps.googleusercontent.com ">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
+    <!-- <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png"> -->
+<!-- <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"> -->
+<link rel="icon" type="image/png" href="https://universidadesdemexico.mx/logos/original/logo-universidad-tecnologica-de-izucar-de-matamoros.png">
+<link rel="manifest" href="/manifest.json">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff"> 
+    <script src="https://www.gstatic.com/firebasejs/5.8.6/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyCmz835-Th5Ync-_XN6RUjThIJFndgQp08",
+    authDomain: "controlescolar-890fc.firebaseapp.com",
+    databaseURL: "https://controlescolar-890fc.firebaseio.com",
+    projectId: "controlescolar-890fc",
+    storageBucket: "controlescolar-890fc.appspot.com",
+    messagingSenderId: "173075270522"
+  };
+  firebase.initializeApp(config);
+</script>
+     </script>
+     <script src="https://www.gstatic.com/firebasejs/4.12.1/firebase.js"></script>
+<script src="https://www.gstatic.com/firebasejs/4.12.1/firebase-firestore.js"></script>
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400italic,500,500italic,700|Roboto+Mono:400,500,700|Google+Sans:400,500">
+        <link rel="stylesheet" href="estiloreg.css" />  
+      </head>  
+      <body>
+            <div class = "form">
+                    <header class = "encabezado"><h1>Registro de Alumnos</h1></header>
+                    <div class = "busquedad">
+                      <input type="search" placeholder="Ingrese su matricula" class="cajabuscar" id="matricula">
+                     <input type = "button" value="&#x1F50D" class = "btn" onclick="buscar()">
+                    </div>
+                    <div class = "ralumno"> <p>Datos Personales</p>
+                      <input type = "text" class="caja" id= "nombre"placeholder="Nombre" required>
+                      <input type = "text" class="caja" id= "apellido"placeholder="Apellido"required>
+                      <input type = "number" class="caja" id= "grado"placeholder="Grado"required>
+                      <input type = "text" class="caja" id= "grupo"placeholder="Grupo" required>
+                      <input type = "number" class="caja" id= "promedio"placeholder="Promedio"required>
+                      <input type = "date" class="caja" id= "fechanac"placeholder="Fecha de Nacimiento"required>
+                    </div>
+                    <div class = "docu"><p>Documentación</p>
+                      <input type = "checkbox" value="acta">Acta de nacimiento
+                      <input type = "checkbox" value="certificado">Certificado
+                      <input type = "checkbox" value="pago">Pago
+                      <input type = "checkbox" value="curp">CURP    
+                    </div>
+                    <footer class="pie">
+                      <input type = "button" value="Inscribirse" class = "btn" id = "agregar" onclick="agregar()"></footer>
+                    </div>
+                    <script type="text/javascript" src="mainreg.js"></script>
+                    <script src="https://www.gstatic.com/firebasejs/5.8.6/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyCmz835-Th5Ync-_XN6RUjThIJFndgQp08",
+    authDomain: "controlescolar-890fc.firebaseapp.com",
+    databaseURL: "https://controlescolar-890fc.firebaseio.com",
+    projectId: "controlescolar-890fc",
+    storageBucket: "controlescolar-890fc.appspot.com",
+    messagingSenderId: "173075270522"
+  };
+  firebase.initializeApp(config);
+</script>
+     </script>
+      </body> 
+
+</html>

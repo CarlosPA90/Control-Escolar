@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css?family=Varela+Round');
+
+.form{
+    width: 700px;
+    height: 600px;
+    margin: 30px auto;
+    box-shadow: 0px 0px 10px 0px;
+   font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+}
+.encabezado{
+  background-color: #00A887;
+  color: #ffff;
+  text-align: center;
+  font-family:'Varela Round', sans-serif;
+}
+.ralumno{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+  border:1px solid black;
+  border-radius: 8px;
+  padding: 8px;
+  margin: 5px;
+  font-family: "Google Sans",sans-serif;
+}
+.btn{
+  color: #fff;
+    background-color: #337ab7;
+  border: 1px; 
+  border-color: #2e6da4;
+    border-radius: 10px;
+    box-shadow: none;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 20px;
+    padding: 6px 16px;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+  
+}
+.btn:hover{  
+  background-color: #006dbf;
+  border-color: #006dbf;
+  color: #fff;
+}
+.docu{
+  text-align: center;
+  border:1px solid black;
+  border-radius: 8px;
+  padding: 8px;
+  margin: 5px;
+  font-family: "Google Sans",sans-serif;
+}
+.caja{
+  background-color: transparent;
+  border: 1px solid black;
+   border-color: #bdc7d8;
+    border-radius: 5px;
+    word-wrap: break-word;
+    outline: none;
+    display: flex;
+    flex: 100%;
+    -webkit-tap-highlight-color: transparent;
+    margin-top: 10px;
+    position: relative;
+  font-size: 16px;
+   line-height: 20px;
+  padding: 3px 10px;
+  font-family: "Google Sans",sans-serif;
+}
+.caja:focus{
+  border-color: #66afe9;
+      outline: 0;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102,175,233,.6);
+  }
+.pie{
+  margin: 20px;
+  text-align: right;
+}
+.busquedad{
+  display: flex;
+  justify-content: flex-end;
+  margin: 20px;
+  text-align: right;
+}
+.cajabuscar{
+  background: transparent;
+    border: 1px solid black;
+    border-radius: 15px;
+  border-color: #bdc7d8;
+  padding: 3px 10px;
+  font-family: "Google Sans",sans-serif;
+}
+.cajabuscar:focus{
+  border-color: #66afe9;
+      outline: 0;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102,175,233,.6);
+  }
+@media screen and (max-width: 768px) {
+    .form{
+      width: 100%;
+      height: 100%;
+      margin: 0 auto;
+    }
+    
+    
+  }
+  
